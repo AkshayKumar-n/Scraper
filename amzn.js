@@ -1,4 +1,4 @@
-const Puppeteer = require('puppeteer');
+const Puppeteer = require('puppeteer');// constructing puppeter
 
 async function scrapeProduct(url){
     const browser = await Puppeteer.launch();
